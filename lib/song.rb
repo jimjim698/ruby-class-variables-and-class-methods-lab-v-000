@@ -23,7 +23,7 @@ end
       each_genre<< genre
     end
   end
-  each_genre
+  return each_genre
 end
 
 
