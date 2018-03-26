@@ -15,5 +15,15 @@ end
     @@count
   end
 
+  def self.genres
+    each_genre = []
+    if @@genres.detect do |genre|
+      false
+      each_genre<< genre
+    end
+  end
+  each_genre
+end
+
 
 end
