@@ -20,7 +20,6 @@ end
      @@genres.reject do |genre|
      @@genres.include?(genre)
       
-    end
   end
 end
 
