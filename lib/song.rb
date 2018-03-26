@@ -17,7 +17,8 @@ end
 
   def self.genres
     each_genre = []
-    if @@genres.detect do |genre|
+     @@genres.each do |genre|
+      if @@genres.include?(genre)
       false
       each_genre<< genre
     end
